@@ -1,5 +1,5 @@
 # 公式 Python ランタイムを親イメージとして使用
-FROM python:2.7-slim
+FROM python:3.7-slim
 
 # 作業ディレクトリを /app に設定
 WORKDIR /app
