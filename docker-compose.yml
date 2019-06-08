@@ -2,9 +2,9 @@ version: "3"
 services:
   web:
     # username/repo:tag を皆さんの名前とイメージに置き換えます
-    image: tetsunog/get-staeted:v0.1
+    image: tetsunog/get-started:v0.1
     deploy:
-      replicas: 4
+      replicas: 2
       resources:
         limits:
           cpus: "0.1"
