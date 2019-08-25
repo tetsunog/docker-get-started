@@ -4,7 +4,7 @@ services:
     # username/repo:tag を皆さんの名前とイメージに置き換えます
     image: tetsunog/get-started:v0.2
     deploy:
-      replicas: 3
+      replicas: 2
       resources:
         limits:
           cpus: "0.1"
